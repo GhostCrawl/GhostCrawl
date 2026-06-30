@@ -1,0 +1,46 @@
+GhostCrawl Software License
+
+Copyright (c) 2026 GhostCrawl, LLC. All rights reserved.
+
+This software — including the GhostCrawl SDKs, command-line interface, example
+code, documentation, and the GhostCrawl self-host image (collectively, the
+"Software") — is the proprietary property of GhostCrawl, LLC ("GhostCrawl") and
+its licensors. It is licensed, not sold.
+
+1. LICENSE GRANT. Subject to your continuous compliance with this License and the
+   GhostCrawl Terms of Service (https://docs.ghostcrawl.io/legal/terms),
+   GhostCrawl grants you a limited, revocable, non-exclusive, non-transferable,
+   and non-sublicensable license to install and use the Software, including
+   within your own applications, solely to access and use the GhostCrawl service
+   under a valid GhostCrawl account.
+
+2. RESTRICTIONS. Except as expressly permitted in Section 1, you may not, in
+   whole or in part: (a) copy the Software except as strictly necessary to use it
+   as permitted; (b) modify, adapt, translate, or create derivative works of the
+   Software; (c) distribute, publish, sublicense, sell, resell, rent, lease,
+   lend, or otherwise transfer the Software, or make it available to any third
+   party, including as a hosted or managed service; (d) reverse engineer,
+   decompile, disassemble, or otherwise attempt to derive the source code,
+   structure, or internal design of any compiled component of the Software;
+   (e) circumvent, disable, or tamper with any license, authentication,
+   usage-metering, watermarking, or security mechanism; or (f) remove, alter, or
+   obscure any proprietary, copyright, or attribution notice.
+
+3. OWNERSHIP. GhostCrawl and its licensors retain all right, title, and interest
+   in and to the Software and all intellectual property rights therein. No rights
+   are granted to you except as expressly set out in this License. All rights
+   reserved.
+
+4. TERMINATION. This License terminates automatically, without notice, if you
+   breach any of its terms or cease to maintain a valid GhostCrawl account where
+   one is required. Upon termination you must cease all use of the Software and
+   destroy all copies in your possession or control.
+
+5. NO WARRANTY; LIMITATION OF LIABILITY. THE SOFTWARE IS PROVIDED "AS IS" WITHOUT
+   WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. TO THE MAXIMUM EXTENT PERMITTED BY
+   LAW, GHOSTCRAWL AND ITS LICENSORS WILL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+   OTHER LIABILITY ARISING FROM OR IN CONNECTION WITH THE SOFTWARE OR ITS USE. The
+   GhostCrawl Terms of Service and Acceptable Use Policy
+   (https://docs.ghostcrawl.io/legal/terms) are incorporated by reference.
+
+For licensing inquiries, contact legal@ghostcrawl.io.

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "ghostcrawl": {
+      "url": "https://mcp.ghostcrawl.io",
+      "headers": {
+        "Authorization": "Bearer gck_live_..."
+      }
+    }
+  }
+}

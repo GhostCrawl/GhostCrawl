@@ -1,0 +1,22 @@
+# docker-compose.yml — GhostCrawl self-host (pull-only)
+#
+# Copy this file to docker-compose.yml, set GHOSTCRAWL_API_KEY in a .env file
+# next to it (GHOSTCRAWL_API_KEY=gck_live_...), then run:
+#
+#   docker compose up -d
+#   docker compose logs -f
+#
+# The image validates your API key online each time it starts.
+# See docs/usage-selfhost.md for the full guide (the `ghostcrawl` CLI wraps this).
+services:
+  ghostcrawl:
+    image: ghcr.io/ghostcrawl/ghostcrawl:latest
+    ports:
+      - "8000:8000"   # REST API (same surface as the cloud)
+      - "3143:3143"   # MCP endpoint
+    environment:
+      GHOSTCRAWL_API_KEY: "${GHOSTCRAWL_API_KEY:?set GHOSTCRAWL_API_KEY in .env}"
+      GHOSTCRAWL_MODE: cloud
+    volumes:
+      - "${HOME}/.ghostcrawl:/root/.ghostcrawl"
+    restart: unless-stopped
